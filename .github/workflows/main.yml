@@ -1,7 +1,8 @@
 name: Main testing
 on: [push]
 jobs: 
-  runs-on: ubuntu-latest
-  steps:
-    uses: ./node_modules/.bin/mocha
-    run: ./node_modules/.bin/mocha
+  Main-testing:
+    runs-on: ubuntu-latest
+    steps:
+      uses: ./node_modules/.bin/mocha
+      run: ./node_modules/.bin/mocha
