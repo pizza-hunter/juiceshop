@@ -4,5 +4,4 @@ jobs:
   Main-testing:
     runs-on: ubuntu-latest
     steps:
-      uses: ./node_modules/.bin/mocha
-      run: ./node_modules/.bin/mocha
+      - run: ./node_modules/.bin/mocha
