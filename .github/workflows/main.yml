@@ -2,6 +2,6 @@ name: Main testing
 on: [push]
 jobs: 
   build:
-  runs-on: ubuntu-latest
-  uses: ./node_modules/.bin/mocha
-  run: ./node_modules/.bin/mocha
+    runs-on: ubuntu-latest
+    uses: ./node_modules/.bin/mocha
+    run: ./node_modules/.bin/mocha
